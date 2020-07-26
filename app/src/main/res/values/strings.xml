@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Omachinosensei</string>
+    <string name="app_name">Machinosensei</string>
+    <string name="getLocationPermission">位置情報の取得に同意します</string>
+    <string name="slide_app_start_button_title">位置情報の取得に同意します</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">ホーム画面</string>
+    <string name="menu_my_page">Myページ</string>
+    <string name="menu_message">メッセージ</string>
+    <string name="menu_setting">設定</string>
+
+
 </resources>
