@@ -15,5 +15,28 @@
     <string name="menu_message">メッセージ</string>
     <string name="menu_setting">設定</string>
 
+    <string name="mypage_comment_1">※すべてのサービスを利用するためにはログインが必要です。</string>
+    <string name="botton_login">ログイン</string>
+    <string name="botton_account_registration">アカウント登録</string>
+
+    <string name="spinner_title">言語を選択してください。</string>
+    <string-array name="language_select">
+        <item>全ての言語</item>
+        <item>日本語</item>
+        <item>英語</item>
+        <item>韓国語</item>
+        <item>中国語</item>
+        <item>スペイン語</item>
+        <item>フランス語</item>
+        <item>ロシア語</item>
+        <item>ドイツ語</item>
+        <item>イタリア語</item>
+        <item>ヒンディー語</item>
+        <item>ポルトガル語</item>
+        <item>アラビア語</item>
+        <item>ベトナム語</item>
+        <item>フィリピン語</item>
+    </string-array>
+
 
 </resources>

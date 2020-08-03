@@ -6,10 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.lee.machinosensei.R
@@ -26,10 +23,14 @@ class SlideActivity : AppCompatActivity() {
         setContentView(R.layout.activity_slide)
 
         var btnAppStart: Button =findViewById(R.id.btn_slide_app_start)
-
+        var spinner: Spinner = findViewById(R.id.language_spinner)
+//        spinner.selectedItemPosition
+//        spinner.selectedItem
         btnAppStart.setOnClickListener {
             val intent = Intent(this,
                 HomeActivity::class.java)
+            // 言語名設定
+            intent.putExtra("select_lang", spinner.selectedItem.toString())
             startActivity(intent)
         }
 
